@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "oswald";
+    min-width: 320px;
+}
+p{
+    margin-top: 10px;
+}
+body.rojo{
+    background-image: linear-gradient(to top, #bd332a, #ff4135);
+}
+body.blanco{
+    background-image: linear-gradient(to top, #999, #eee);
+}
+body.azul{
+    background-image: linear-gradient(to top, #003670, #0050a4);
+}
+body.bio{
+    background-image: linear-gradient(to top,#999, #eee);
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-weight: 400;
+    padding: 0 10px;
+    background-color: #ffffffa8;
+    color: #ef4135;
+}
+h1 span{
+    color: #0050a4;
+}
+ul{
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+li a, header a{
+    text-decoration: none;
+    color: white;
+}
+body.blanco li a,
+body.bio li a,
+body.blanco p,
+body.bio p{
+    color: black;
+}
+h2{
+    font-weight: 500;
+    font-size: 12em;
+    position: relative;
+    top: 100px;
+    left: -50px;
+    z-index: -1;
+}
+h2.rojo{
+    color: #bd332a;
+}
+h2.blanco{
+    color: #fff;
+}
+h2.azul{
+    color: #003670;
+}
+section{
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+p{
+    color: #eee;
+}
+img{
+    display: block;
+    margin: 10px;
+    border: 10px solid white;
+    outline: 2px solid grey;
+    width: 90%;
+}
+
+@media screen and (max-width: 950px){
+    header{
+        display: block;
+    }    
+    nav{
+        margin-top: 20px;
+    }
+    h1{
+       display: inline-block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2{
+        position: static;
+        font-size: 2em;
+    }   
+    section{
+        width: 80%;
+    }
+   
+}
+
+@media screen and (max-width: 500px) {
+    ul{
+        width: 80%;
+    }
+    h1 span{
+        display: block;
+   }
+    header{
+        padding: 10px;
+   }
+    h1{
+        display: block;
+        width: 30vh;
+   }
+}
