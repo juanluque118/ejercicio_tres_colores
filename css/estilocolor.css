@@ -113,8 +113,10 @@ img{
     ul{
         width: 80%;
     }
-    h1 span{
-        display: block;
+    h1{
+        
+        width: 40vh;
+        
    }
     header{
         padding: 10px;
