@@ -116,6 +116,9 @@ img{
     h1{
         width: 40vh;
    }
+   h1 span{
+        display: block;
+   }
     header{
         padding: 10px;
    }
