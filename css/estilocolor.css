@@ -114,15 +114,10 @@ img{
         width: 80%;
     }
     h1{
-        
         width: 40vh;
-        
    }
     header{
         padding: 10px;
    }
-    h1{
-        display: block;
-        width: 30vh;
-   }
+   
 }
